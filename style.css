@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    @font-face {
+        font-family: Aston Script;
+        src: url(./img/"Aston Script");
+    }
+
+    @font-face {
+        font-family: cocogoose;
+        src: url(./img/"Cocogoose Pro Light-trial");
+    }
+
+}
+
+.section-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: inset 0px -13px 20px 0px #aa6d47;
+    background-color: #D29C7B;
+    width: 100vw;
+    min-height: 300px;
+}
+
+.logo-grande {
+    width: 700px;
+}
+
+.buttons-1 {
+    margin: 20px 20px 0 0;
+    padding: 5px;
+    width: 100px;
+    border: none;
+    background-color: transparent;
+    color: #fff6e6;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.buttons-1:hover {
+    color: #DA4B71;
+    text-decoration: underline;
+    transition: .3s ease-in-out;
+}
+
+.section-2 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+    min-height: 400px;
+    background-image: url(./img/textura.jpg);
+    background-size: cover;
+}
+
+.imagens-todas {
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+    border-radius: 100%;
+    border: solid 1px #DA4B71;
+    box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.5);
+}
