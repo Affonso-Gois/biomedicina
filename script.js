@@ -7,21 +7,25 @@ let lista4 = document.querySelector(".lista-4")
 // abrir lista
 function cliqueiLabios() {
 
+    lista1.style.opacity = "1"
     lista1.style.visibility = "visible"
 }
 
 function cliqueiPele() {
 
+    lista2.style.opacity = "1"
     lista2.style.visibility = "visible"
 }
 
 function cliqueiOlhos() {
 
+    lista3.style.opacity = "1"
     lista3.style.visibility = "visible"
 }
 
 function cliqueiBotox() {
 
+    lista4.style.opacity = "1"
     lista4.style.visibility = "visible"
 }
 
@@ -29,10 +33,13 @@ function cliqueiBotox() {
 function cliqueifechar() {
 
     lista1.style.visibility = "hidden"
+    lista1.style.opacity = "0"
     lista2.style.visibility = "hidden"
+    lista2.style.opacity = "0"
     lista3.style.visibility = "hidden"
+    lista3.style.opacity = "0"
     lista4.style.visibility = "hidden"
-
+    lista4.style.opacity = "0"
 }
 // abrir whatsapp
 function agendar() {

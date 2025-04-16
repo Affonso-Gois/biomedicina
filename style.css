@@ -55,7 +55,7 @@
     background-image: url(./img/textura.jpg);
     background-size: cover;
     text-align: center;
-   
+
 }
 
 .imagens-todas {
@@ -67,11 +67,12 @@
     box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
     background-color: #aa6d47;
 }
+
 .imagens-todas:hover {
-   opacity: .9;
-   cursor: pointer;
-   height: 302px;
-   width: 302px;
+    opacity: .9;
+    cursor: pointer;
+    height: 302px;
+    width: 302px;
 }
 
 .paragrafo-1 {
@@ -82,7 +83,9 @@
 
 /* edição listas */
 
-.lista-1{
+.lista-1 {
+    opacity: 0 ;
+    transition: opacity 1s ease;
     visibility: hidden;
     display: flex;
     flex-direction: column;
@@ -100,9 +103,9 @@
     box-shadow: 0px 10px 30px rgb(0, 0, 0);
     height: 350px;
     gap: 10px;
-    transition: .5s ease-in;
-    
+
 }
+
 .titulo-lista {
     font-family: cocogoose;
     font-size: 20px;
@@ -123,7 +126,7 @@
     cursor: pointer;
 }
 
-.botao-fechar{
+.botao-fechar {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -137,12 +140,15 @@
     margin-left: 210px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.429);
 }
+
 .botao-fechar:hover {
     opacity: .8;
     cursor: pointer;
 }
 
-.lista-2{
+.lista-2 {
+    opacity: 0 ;
+    transition: opacity 1s ease;
     visibility: hidden;
     display: flex;
     flex-direction: column;
@@ -161,14 +167,17 @@
     height: 350px;
     gap: 10px;
     transition: .5s ease-in;
-    
+
 }
 
 .titulo-lista-2 {
     font-family: cocogoose;
     font-size: 20px;
 }
-.lista-3{
+
+.lista-3 {
+    opacity: 0 ;
+    transition: opacity 1s ease;
     visibility: hidden;
     display: flex;
     flex-direction: column;
@@ -194,7 +203,9 @@
     font-size: 20px;
 }
 
-.lista-4{
+.lista-4 {
+    opacity: 0 ;
+    transition: opacity 1s ease;
     visibility: hidden;
     display: flex;
     flex-direction: column;
