@@ -9,54 +9,99 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body> 
+    
+            <div class="redes-sociais">
+
+                <a href="https://www.instagram.com/janicecosta.biomedica/" target="_blank"><img class="redes" src="./img/instagram.png"></a>
+                <a href="https://www.facebook.com/janice.costa.50" target="_blank"><img class="redes" src="./img/facebook.png" alt="Facebook"></a>
+
+            </div>
+
     <section class="section-1">
 
         <img class="logo-grande" src="/img/nome grande.png" alt="">
 
         <div class="div-1">
 
-            <button class="buttons-1">Sobre</button>
-            <button class="buttons-1">Procedimentos</button>
-            <button class="buttons-1">Galeria</button>
-            <button class="buttons-1">Depoimentos</button>
+            <label>Selecione um opção:</label>
+
+            <select class="menu">
+
+                <option>Selecione</option>
+                <option>Preenchimento labial</option>
+                <option>cuidados com a Pele</option>
+                <option>Botox</option>
+                <option>Tratamento para Olheiras</option>
+                <option>Tratamento para Estrias</option>
+
+
+            </select>
+
+           
 
         </div>
+
+
+
+    </section>
+
+    <section class="sobre">
+
+        <img class="img-janice" src="./img/Sem Título-1.png" alt="Janice Costa">
+        <p class="texto-sobre"> Olá! Me chamo Janice Costa, sou biomédica esteta apaixonada por cuidar da beleza e
+            bem-estar das pessoas.
+            Formada em Biomedicina com habilitação em estética, encontrei na área da saúde estética a combinação
+            perfeita entre ciência, arte e autoestima. <br> <br>
+
+            Acredito que cada pessoa é única e, por isso, busco oferecer tratamentos personalizados, com base em
+            conhecimento técnico, ética e um olhar atento às necessidades individuais. Estou em constante atualização
+            para trazer o que há de mais moderno e seguro no universo da estética, sempre priorizando resultados
+            naturais e duradouros. <br> <br>
+
+            Meu compromisso é promover saúde, autoconfiança e qualidade de vida através de procedimentos realizados com
+            responsabilidade, carinho e profissionalismo. <br> <br>
+
+            Sejam bem-vindos aqui, sua beleza é valorizada com ciência e cuidado! </p>
 
     </section>
 
     <section class="section-2">
-        <div>
-            <img class="imagens-todas" src="./img/labial.png" alt="" onclick="cliqueiLabios()">
-            <p class="paragrafo-1">Preenchimento Labial</p>
-        </div>
+        <div class="div-sectio-2">
 
-        <div>
-            <img class="imagens-todas" src="./img/estética.png" alt="" onclick="cliqueiPele()">
-            <p class="paragrafo-1">Cuidados com a pele</p>
-        </div>
+            <div class="img">
+                <img class="imagens-todas" src="./img/labial.png" alt="" onclick="cliqueiLabios()">
+                <p class="paragrafo-1">Preenchimento Labial</p>
+            </div>
 
-        <div>
-            <img class="imagens-todas" src="./img/olheiras.jpg" alt="" onclick="cliqueiOlhos()">
-            <p class="paragrafo-1">Tratamento para olheiras</p>
-        </div>
+            <div class="img">
+                <img class="imagens-todas" src="./img/estética.png" alt="" onclick="cliqueiPele()">
+                <p class="paragrafo-1">Cuidados com a pele</p>
+            </div>
 
-        <div>
-            <img class="imagens-todas" src="./img/botox.jpg" alt="" onclick="cliqueiBotox()">
-            <p class="paragrafo-1">Rejuvenescimento com Botox</p>
+            <div class="img">
+                <img class="imagens-todas" src="./img/olheiras.jpg" alt="" onclick="cliqueiOlhos()">
+                <p class="paragrafo-1">Tratamento para<br>olheiras</p>
+            </div>
+
+            <div class="img">
+                <img class="imagens-todas" src="./img/botox.jpg" alt="" onclick="cliqueiBotox()">
+                <p class="paragrafo-1">Rejuvenescimento<br>com Botox</p>
+            </div>
+
         </div>
 
 
         <ul class="lista-1">
 
-            <button class="botao-fechar" type="button" onclick="cliqueifechar()">X</button>
+            <button class="botao-fechar" type="button" onclick="cliqueifechar()">Fechar</button>
 
             <h2 class="titulo-lista">Preenchimento Labial</h2><br>
-            Aumento de Volume <br> <br>
-            Correção de Assimetrias <br> <br>
-            Rejuvenescimento <br> <br>
+            Aumento de Volume <br><br>
+            Correção de Assimetrias <br><br>
+            Mais volume <br><br>
             Hidratação Profunda <br>
-            <br>
+
 
             <button class="button-avaliação" onclick="agendar()">Agendar Avaliação</button>
 
@@ -64,14 +109,14 @@
 
         <ul class="lista-2">
 
-            <button class="botao-fechar" type="button" onclick="cliqueifechar()">X</button>
+            <button class="botao-fechar" type="button" onclick="cliqueifechar()">Fechar</button>
 
             <h2 class="titulo-lista-2">Cuidados com a Pele</h2><br>
-            Remoção de Células Mortas<br> <br>
-            Desobstrução de Póros <br> <br>
-            Controle de oleosidade <br> <br>
-            Hidratação <br>
-            <br>
+            Remoção de Células Mortas<br><br>
+            Desobstrução de Póros <br><br>
+            Controle de oleosidade <br><br>
+            Hidratação
+            
 
             <button class="button-avaliação" onclick="agendar()">Agendar Avaliação</button>
 
@@ -79,14 +124,14 @@
 
         <ul class="lista-3">
 
-            <button class="botao-fechar" type="button" onclick="cliqueifechar()">X</button>
+            <button class="botao-fechar" type="button" onclick="cliqueifechar()">Fechar</button>
 
-            <h2 class="titulo-lista-3">Cuidados com a Pele</h2><br>
-            Remoção de Células Mortas<br> <br>
-            Desobstrução de Póros <br> <br>
-            Controle de oleosidade <br> <br>
-            Hidratação <br>
-            <br>
+            <h2 class="titulo-lista-3">Tratamento de olheiras</h2><br>
+            Clareamento local<br><br>
+            Ácido hialurônico<br><br>
+            Tratamento à laser <br><br>
+            Suavização de rugas
+            
 
             <button class="button-avaliação" onclick="agendar()">Agendar Avaliação</button>
 
@@ -94,12 +139,12 @@
 
         <ul class="lista-4">
 
-            <button class="botao-fechar" type="button" onclick="cliqueifechar()">X</button>
+            <button class="botao-fechar" type="button" onclick="cliqueifechar()">Fechar</button>
 
-            <h2 class="titulo-lista-4">Rejuvenescimento com <br>Botox</h2>
-            Redução de rugas e linhas <br>de expressão<br> <br>
-            Rejuvenescimento <br> <br>
-            Melhora da autoestima <br> <br>
+            <h2 class="titulo-lista-4">Rejuvenescimento com <br>Botox</h2><br>
+            Redução de rugas e linhas <br>de expressão<br>
+            Rejuvenescimento <br>
+            Melhora da autoestima <br>
             Prevenção do envelhecimento <br>
 
 
@@ -119,7 +164,6 @@
     <section>
 
         <iframe
-
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3677.284234381653!2d-43.605737124106625!3d-22.828971335095684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9be3e72ae7ba6d%3A0x631f3031c3eee352!2sJanice%20Costa%20Est%C3%A9tica%20Avan%C3%A7ada!5e0!3m2!1sen!2sbr!4v1744803639772!5m2!1sen!2sbr"
             width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade">
