@@ -27,4 +27,5 @@ function showSlides() {
   slides[slideIndex].style.display = "block";
 }
 
-setInterval(showSlides, 3000); // Auto-avançar a cada 3 segundos
+setInterval(showSlides, 2000); // Auto-avançar a cada 3 segundos
+

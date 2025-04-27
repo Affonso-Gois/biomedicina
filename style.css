@@ -242,7 +242,6 @@
 }
 
 .instagram-media {
-    max-width: 250px;
     height: 500px;
 }
 
@@ -264,6 +263,7 @@
     height: 100%;
     display: flex;
     transition: 0.2s;
+    justify-content: space-around;
 }
 
 .slide {
@@ -271,24 +271,6 @@
     height: 100%;
     object-fit: cover;
 }
-
-.prev,
-.next {
-    position: absolute;
-    top: 50%;
-    width: 30px;
-    height: 30px;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    text-align: center;
-    line-height: 30px;
-    cursor: pointer;
-}
-
-.prev {
-    left: 0;
-}
-
-.next {
-    right: 0;
+.section-6 {
+    background: linear-gradient(135deg, #aa6d47, #D29C7B);
 }
